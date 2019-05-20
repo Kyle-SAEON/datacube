@@ -1,0 +1,21 @@
+description: This is a test product data definition
+metadata:
+  Instrument:
+    name: Rain Gauge
+  format:
+    name: NETCDF
+  platform:
+    code: TST01
+  product_type: rainfall
+metadata_type: eo
+name: test data product definition
+storage:
+  crs: spatial projection
+  measurements:
+    dtype: float32
+    name: temperature
+    nodata: '-999'
+    units: cm
+  resolution:
+    latitude: '-0.5'
+    longitude: '0.5'
